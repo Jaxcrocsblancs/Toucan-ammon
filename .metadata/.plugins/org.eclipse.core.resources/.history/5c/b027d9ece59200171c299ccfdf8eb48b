@@ -1,0 +1,14 @@
+package toucan.modele;
+
+public class LesMouvements {
+
+	void gauche(int a){
+		
+	}
+	
+	void droite(int a){
+		
+	}
+	
+	void 
+}

@@ -1,0 +1,11 @@
+package toucan.modele;
+
+public class Cases {
+	private int posX;
+	private int posY;
+	
+	public Cases(int a, int b){
+	
+	}
+
+}

@@ -1,0 +1,16 @@
+package toucan.modele;
+
+import java.util.ArrayList;
+
+public class LesCases {
+	private Cases[] tabCases;
+	
+	public LesCases(int tab[]){
+		for(int i=0; i<tab.length;i++){
+			affecter(tab[i];tab[i+1]);
+		}
+	}
+	public void affecter(int a, int b){
+		
+	}
+}

@@ -1,0 +1,12 @@
+package toucan.modele;
+
+public class Cases {
+	private int x;
+	private int y;
+	
+	public Cases(int a, int b){
+		this.x=a;
+		this.y=b;
+	}
+
+}

@@ -1,0 +1,22 @@
+package toucan.modele;
+
+public class LesMouvements {
+	private int xinit;
+	private int yinit;
+	private Arrayliste<Mouvement> listeMouvement;
+	
+	public LesMouvements(int a, int b) {
+		this.xinit = a;
+		this.yinit = b;
+		
+	}
+
+	public void gauche(int a){
+		
+	}
+	
+	public void droite(int a){
+		
+	}
+	
+}

@@ -1,0 +1,21 @@
+package toucan.modele;
+
+public class LesCases {
+	
+	private Cases[] tabCases;
+	
+	public LesCases(int... tab){
+		tabCases = new Cases[tab.length/2];
+		
+		for(int i; i<tab.length; i++){
+			Cases c = new Cases(i,i+1);
+			tabCases[i] = c;
+		}
+		
+		
+	}
+	
+	public void affecter(int a, int b){
+		
+	}
+}

@@ -1,0 +1,11 @@
+package toucan.modele;
+
+public abstract class Mouvement {
+	private int initX;
+	private int initY;
+	private int move;
+	private int endX;
+	private int endY;
+	
+	
+}

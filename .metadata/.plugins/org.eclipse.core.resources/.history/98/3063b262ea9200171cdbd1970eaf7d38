@@ -1,0 +1,26 @@
+package toucan.modele;
+
+public class Cases {
+	private LesMouvements mouvement;
+	
+	public Cases(int a, int b){
+		mouvement = new LesMouvements(int a, int b);
+	}
+
+	public void gauche(int b) {
+		
+	}
+
+	public void haut(int b) {
+		
+	}
+
+	public void droite(int b) {
+		
+	}
+
+	public void bas(int b) {
+		
+	}
+
+}

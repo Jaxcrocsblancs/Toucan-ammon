@@ -1,0 +1,42 @@
+package toucan.modele;
+
+import java.util.ArrayList;
+
+public class LesMouvements {
+	private int xinit;
+	private int yinit;
+	private ArrayList<Mouvement> listeMouvement;
+	
+	public LesMouvements(int a, int b) {
+		this.xinit = a;
+		this.yinit = b;
+		listeMouvement = new ArrayList<Mouvement>();
+	}
+
+	private void ajouter (Mouvement m){
+		listeMouvement.add(m);
+	}
+	
+	public void gauche(int a){
+		Mouvement m = new MouvementGauche(a, this.xDepart(), this.yDepart());
+		m.mouvement();
+		
+	}
+	
+	private int xDepart() {
+		if(listeMouvement.isEmpty()){
+			return xinit;
+		}
+	}
+
+	private int yDepart() {
+		if(listeMouvement.isEmpty()){
+			return yinit;
+		}
+	}
+
+	public void droite(int a){
+		
+	}
+	
+}

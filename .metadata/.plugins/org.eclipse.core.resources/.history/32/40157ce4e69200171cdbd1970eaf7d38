@@ -1,0 +1,12 @@
+package toucan.modele;
+
+public class LesCases {
+	
+	
+	public LesCases(){
+		
+	}
+	public void affecter(int a, int b){
+		
+	}
+}

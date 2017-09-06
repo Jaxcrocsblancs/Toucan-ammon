@@ -1,0 +1,8 @@
+package toucan.modele;
+
+public class Modele {
+	
+	Modele(){
+		
+	}
+}

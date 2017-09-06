@@ -1,0 +1,17 @@
+INDEX VERSION 1.126+/opt/calba5u/Espace-Etudiant/S5/Projet de synthèse/.metadata/.plugins/org.eclipse.jdt.core
+565733067.index
+4255766309.index
+1899046208.index
+2491498512.index
+1824209490.index
+2981269553.index
+2878031781.index
+2654904532.index
+418860975.index
+111765475.index
+186760032.index
+2295380138.index
+2225388994.index
+1727239170.index
+3353593218.index
+1761808199.index
